@@ -28,4 +28,4 @@ jobs:
       - name: Run tests
         run: go test ./...
       - name: Go list
-        run: GOPROXY=proxy.golang.org go list -m github.com/ParceladoLara/payment-plan-go-sdk@${{ env.RELEASE_VERSION }}
+        run: GOPROXY=proxy.golang.org go list -m github.com/ParceladoLara/payment-plan-go-sdk/v3@${{ env.RELEASE_VERSION }}
