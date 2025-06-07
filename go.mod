@@ -1,3 +1,3 @@
-module github.com/ParceladoLara/payment-plan-go-sdk/v3
+module github.com/ParceladoLara/payment-plan-go-sdk
 
 go 1.24.1
